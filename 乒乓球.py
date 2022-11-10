@@ -139,7 +139,7 @@ def main():
     pygame.init()
     pygame.mixer.init()
     screen = pygame.display.set_mode((cfg.WIDTH, cfg.HEIGHT))
-    pygame.display.set_caption('pingpong —— 九歌')
+    pygame.display.set_caption('pingpong —— Su')
     # 开始游戏
     while True:
         score_left, score_right = runDemo(screen)
